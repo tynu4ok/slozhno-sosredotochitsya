@@ -22,4 +22,5 @@
   --line-height: 23.4px;
   --line-height-title: 82.5%;
   --text-align: left;
+  --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }

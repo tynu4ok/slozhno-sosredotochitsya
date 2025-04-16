@@ -79,7 +79,7 @@
 .title {
   grid-column: 1 / 5;
   grid-row: 2 / 3;
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var(--logo-size);
   font-weight: var(--font-weight-subtitle);
   line-height: var(--line-height-title);
   color: var(--color-title);
@@ -170,7 +170,7 @@ span {
 }
 
 .text-link:hover {
-  border-bottom: 1px solid var(--color-text);
+  border-bottom: 1px solid currentColor;
 }
 
 .text-link:focus-visible {
@@ -402,7 +402,7 @@ span {
   }
 
   .footer-title {
-    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    font-size: var(--logo-size);
     line-height: clamp(5.98125rem, 5.7844rem + 0.8397vw, 6.1875rem);
   }
 }
